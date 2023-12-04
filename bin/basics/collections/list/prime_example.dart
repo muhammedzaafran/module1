@@ -4,7 +4,7 @@ main() {
   for (var num in number) {
     print(num);
   }
-  number.forEach((element) {
+  for (var element in number) {
     print(element);
-  });
+  }
 }
