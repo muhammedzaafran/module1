@@ -3,6 +3,7 @@ class College{
     print("Hello College !!");
   }
 }
+
 class Student {
   void printdata2() {
     print("Hello Students !!");

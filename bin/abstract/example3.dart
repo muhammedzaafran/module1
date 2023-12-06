@@ -16,7 +16,7 @@ class PNB extends Bank{
 main(){
   Bank b;
   b=SBI();
-  print("Rate of interest is ${b.getRateOfInterest()}");
+  print("Rate of interest of SBI : ${b.getRateOfInterest()} %");
   b=PNB();
-  print("Rate of interest is ${b.getRateOfInterest()}");
+  print("Rate of interest of PNB : ${b.getRateOfInterest()} %");
 }
